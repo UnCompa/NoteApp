@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useNotesStore } from "./../store/notesStore";
 import { v4 as uuidv4 } from "uuid";
-import "easymde/dist/easymde.min.css";
 
 const CreateNote = () => {
   const { addNote, notas } = useNotesStore((state) => state);
