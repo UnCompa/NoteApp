@@ -1,0 +1,7 @@
+.layout {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: 100vh;
+    grid-template-areas: 
+    "navigate main";
+}
