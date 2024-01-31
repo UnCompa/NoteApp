@@ -18,7 +18,6 @@ const CreateNote = () => {
 
     addNote(newNote);
     saveNotesToLocalStorage(notas.concat(newNote));
-    alert('Enviado');
   };
 
   const saveNotesToLocalStorage = (notes) => {

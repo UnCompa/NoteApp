@@ -1,5 +1,9 @@
+// import { useNotesStore } from "../store/notesStore";
+
 /* eslint-disable react/prop-types */
 const Table = ({ notas }) => {
+
+  // const {darkMode} = useNotesStore(state => state)
   return (
     <div className="px-2">
       <h1 className="font-bold text-2xl py-2">Notas</h1>

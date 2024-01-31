@@ -5,3 +5,6 @@
     grid-template-areas: 
     "navigate main";
 }
+.dark-mode {
+    background: #000;
+}
